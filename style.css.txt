@@ -1,0 +1,66 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #b3cde0; /* Soft blue */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #5a5d9d; /* Warm purple */
+}
+
+.header nav a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e6e6fa; /* Light lavender */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Articles Section */
+.articles {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.articles h3 {
+    color: #5a5d9d;
+}
+
+.articles article {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #b3cde0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
